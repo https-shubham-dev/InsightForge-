@@ -1,76 +1,53 @@
-# AutoInsight AI 🚀  
-### AI-Powered Data Analysis Platform (Power BI + ChatGPT Inspired)
+# AutoInsight AI
 
-AutoInsight AI is an advanced data analysis platform that transforms raw, unstructured datasets into clean, interactive, and insight-rich dashboards — without writing a single line of code.
+### AI-Powered Data Analysis Platform
 
-It combines **data cleaning, visualization, AI insights, and conversational analytics** into one unified interface.
-
----
-
-## 🌐 Live Demo
-
-👉 https://autoinsightai.vercel.app
+AutoInsight AI transforms raw CSV/Excel datasets into clean, interactive, insight-rich dashboards — without writing a single line of code. Combines data cleaning, visualization, AI insights, and conversational analytics in one unified interface.
 
 ---
 
-## ⚡ Core Features
+## ⚡ Features
 
-### 📂 Smart Data Processing
-- Upload CSV / Excel files  
-- Automatically cleans unformatted datasets  
-- Handles missing values, duplicates, inconsistencies  
+**Smart Data Processing**
+- Upload CSV / Excel files
+- Auto-cleans unformatted datasets — handles missing values, duplicates, inconsistencies
 
----
+**Power BI–Style Tables**
+- Conditional formatting (Low / Mid / High color coding)
+- Structured tabular view with downloadable output
 
-### 📊 Power BI–Style Tables
-- Conditional formatting (Low / Mid / High color coding)  
-- Structured tabular data view  
-- Download dataset with same formatting  
+**Interactive Analytics**
+- Multi-column filtering
+- Dynamic charts — Bar, Line, Pie, Scatter
+- Real-time aggregation (Sum, Avg, Min, Max)
+- Custom X/Y axis selection
 
----
+**AI Dashboard Insights**
+- Auto-generated dataset summary
+- Key insights extraction, anomaly detection, actionable recommendations
 
-### 📈 Interactive Analytics Engine
-- Multi-column filtering  
-- Dynamic charts (Bar, Line, Pie, Scatter)  
-- Real-time aggregation (Sum, Avg, Min, Max)  
-- Custom X/Y axis selection  
+**Export System**
+- Download cleaned dataset
+- Export AI insights as PDF
 
----
+**Chat with Data**
+- Ask questions in plain English
+- Dataset-aware responses powered by LLM APIs
 
-### 📊 AI Dashboard Insights
-- Auto-generated dataset summary  
-- Key insights extraction  
-- Anomaly detection  
-- Actionable recommendations  
+**Authentication**
+- Google Auth via Supabase
+- Access control per user
 
----
-
-### 📄 Export System
-- Download cleaned dataset  
-- Export AI insights as PDF  
-- Preserve formatting  
-
----
-
-### 💬 Chat with Data (AI Assistant)
-- Ask questions in plain English  
-- Dataset-aware responses  
-- Powered by LLM APIs  
-
----
-
-### 🔐 Authentication
-- Google Authentication (Supabase Auth)
-- Authentication-enabled access control
 ---
 
 ## 🛠️ Tech Stack
 
-- **Frontend:** React + Vite + TypeScript  
-- **State Management:** Custom store architecture  
-- **Backend Services:** Supabase (DB + Auth)  
-- **AI Integration:** External LLM APIs  
-- **Deployment:** Vercel  
+| Layer | Tech |
+|:------|:-----|
+| Frontend | React + Vite + TypeScript |
+| Backend / DB | Supabase (DB + Auth) |
+| AI | Gemini API / Groq API |
+| Deployment | Vercel |
 
 ---
 
@@ -85,10 +62,7 @@ project-root/
 │   ├── routes/
 │   ├── store/
 │   ├── router.tsx
-│   ├── routeTree.gen.ts
-│   ├── style.css
 │── public/
-│── package.json
 │── vite.config.ts
 ```
 
@@ -109,62 +83,27 @@ VITE_GOOGLE_CLIENT_ID=your_google_client_id
 
 ## 💻 Local Development
 
-```
-git clone https://github.com/rishabhsingh8445/AutoInsight-Ai.git
-cd AutoInsight-Ai
+```bash
+git clone https://github.com/https-shubham-dev/AutoInsight-AI.git
+cd AutoInsight-AI
 npm install
 npm run dev
 ```
 
-App runs on:  
-http://localhost:8080
+Runs on `http://localhost:8080`
 
 ---
 
-## 🚀 Deployment
+## 📌 Upcoming
 
-- Hosted on Vercel  
-- Environment variables configured in dashboard  
-- Automatic CI/CD via GitHub  
-
----
-
-## 🔐 Security Notes
-
-- Avoid exposing API keys in frontend  
-- Use serverless functions for sensitive operations  
-- Supabase handles authentication securely  
-
----
-
-## 🧠 Why This Project Stands Out
-
-- End-to-end pipeline:
-  - Data Cleaning  
-  - Visualization  
-  - AI Insights  
-  - Chat-based Analytics  
-
-- Combines:
-  → Power BI + AI Analyst + Data Cleaner  
-
----
-
-## 📌 Future Improvements
-
-- Backend layer for secure AI requests  
-- Multi-user collaboration  
-- Dataset versioning  
-- Predictive analytics (ML models)  
+- Backend layer for secure AI requests
+- Multi-user collaboration
+- Predictive analytics (ML models)
 
 ---
 
 ## 👨‍💻 Author
 
-Rishabh Singh
-
----
-
-## ⭐ Support
-
-If you found this useful, consider giving a ⭐ on GitHub
+**Shubham Kumar**
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/shubham-kumar-code)
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:Https.Shubham@gmail.com)
